@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle at 10% 20%, rgb(87, 108, 117) 0%, rgb(37, 50, 55) 100.2%);
+}
+#head{
+    color: white;
+    font-size: 2em;
+    margin-top: 2%;
+    text-align: center;
+}
+#logo{
+    margin-right: 10px;
+    /* border: 2px solid black; */
+    width: 110px;
+    margin-top: 0.5%;
+    /* margin-left: 28%; */
+    height: 110px;
+}
+.head_logo{
+    justify-content: center;
+    /* border: 2px solid black; */
+    text-align: center;
+    display: flex;
+}
+#head h2{
+    color: rgb(206, 206, 206);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.main_container{
+    /* border: 2px solid white; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(239, 172, 5);
+    /* border: 2px solid  red; */
+    margin-left: 7%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 4%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: rgb(239, 172, 5);
+}
+.food_list_nav{
+    color: blanchedalmond;
+    font-size: 30px;
+    margin-top: 2%;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    width: 30%;
+    display: flex;
+}
+.image_display{
+    margin-top: 2%;
+}
